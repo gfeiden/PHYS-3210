@@ -11,7 +11,7 @@ _script_ and open it using Spyder.
 The code is supposed to compute the hypotenuse of a triangle using NumPy's square
 root function for a triangle with sides *a* = 3 units and *b* = 4 units. It then
 prints out the values of the hypotenuse (side *c*) to the screen. Unfortunately,
-your colleague (\*\*cough\*\* me \*\*cough\*\*) wrote a code filled with *bugs*, i.e., 
+your colleague (\*\**cough*\*\* me \*\**cough*\*\*) wrote a code filled with *bugs*, i.e., 
 errors that prevent the script from running properly. They have asked you to help
 them fix their code. __Your job is to find each bug and write a short report for 
 your colleague explaining (1) where there's an error, (2) why it's an error, 
