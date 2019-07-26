@@ -1,6 +1,19 @@
 ## Week 01: Introduction to Python
 
-This week, we are going to dive into Python, which is the primary programming language that we will use this semester. 
+This week, we are going to dive into Python, which is the primary programming 
+language that we will use this semester. Before we do, we need to make sure that
+we have all of the necessary software and/or user accounts to begin our work.
+
+**User Accounts**:
+ - [GitHub](https://github.com) (if you do not already have one)
+
+**Software**:
+ - [Anaconda Python Distribution](https://www.anaconda.com/distribution/) (w/ Spyder, NumPy, SciPy, Matplotlib, VPython)
+ - [GitHub Desktop](https://desktop.github.com/)
+
+### Preliminaries
+
+
 
 ### Exercise 1
 
