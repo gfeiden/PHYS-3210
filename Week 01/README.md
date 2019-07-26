@@ -4,7 +4,7 @@ This week, we are going to dive into Python, which is the primary programming la
 
 ### Exercise 1
 
-Open Exercise_01.py after following along with Chapter 1 (see above). You may 
+Open `Exercise_01.py` after following along with Chapter 1 (see above). You may 
 either open the exericse directly in GitHub, or you may download the python 
 _script_ and open it using Spyder.
 
