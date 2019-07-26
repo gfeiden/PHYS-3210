@@ -1,4 +1,4 @@
-## Week 01: Introduction to Python
+## Week 01: Introduction to Python & GitHub
 
 This week, we are going to dive into Python, which is the primary programming 
 language that we will use this semester. Before we do, we need to make sure that
@@ -15,7 +15,7 @@ we have all of the necessary software and/or user accounts to begin our work.
 
 
 
-### Exercise 1
+### Exercise 1: Debugging
 
 Open `Exercise_01.py` after following along with Chapter 1 (see above). You may 
 either open the exericse directly in GitHub, or you may download the python 
@@ -45,4 +45,12 @@ Explain.
 
 You're now ready for Chapter 2!
 
-### Exercise 2
+### Exercise 2: 
+
+### Exercise 3: Summing Series
+
+```math
+    \frac{2}{3}
+```
+
+Problem 2.5 from Landau+
