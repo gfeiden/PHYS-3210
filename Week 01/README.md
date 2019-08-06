@@ -13,7 +13,20 @@ we have all of the necessary software and/or user accounts to begin our work.
 
 ### Preliminaries
 
+Create an account on [GitHub](https://github.com), if you do not already have one. 
+GitHub is a software version control platform that keeps a record of changes you
+make to software project and stores your files in the cloud. We'll talk more about
+version control and managing your work with GitHub this week.
 
+__*Working on Campus Computer*__
+
+Download and install GitHub Desktop on your P-Drive. This will allow you to learn 
+and manage your files on GitHub more easily on a Windows PC. 
+
+__*Working on Own Computer*__
+
+Download and install [Anaconda](https://www.anaconda.com/distribution/) and 
+[GitHub Desktop](https://desktop.github.com/). 
 
 ### Exercise 1: Debugging
 
