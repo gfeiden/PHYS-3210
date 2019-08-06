@@ -65,5 +65,7 @@ plt.show()
 #            first column of values (index 0) from the flattened data.
 
 
-# CHALLENGE: find the best mass and age by flattening *only* the 
-#            final step from each chain.
+# CHALLENGE: find the best mass by flattening *only* the final step from
+#            each chain.
+
+
