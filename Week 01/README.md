@@ -58,7 +58,23 @@ Explain.
 
 You're now ready for Chapter 2!
 
-### Exercise 2: 
+### Exercise 2: Find a Star's Mass
+
+Open `Exercise_02.py` after following along with the tutorial presented 
+in Chapter 2. You may either open the file directly in GitHub, or download
+the script to open with Spyder.
+
+Your job is to complete the code so that it properly reformats the input
+data (loaded from a file) to recover the original walker chains, assess
+whether the chains converge on a single answer, and then estimate the 
+mass for the star DS Tuc A. This might sound like jibberish, so read the
+information presented in `Exercise_02.py`. Your instructor will also give
+a quick introduction to the general concepts to provide some clarity and
+context.
+
+This data was used to find the mass of DS Tuc A (and similarly for DS Tuc B),
+which was discovered to host a young exoplanet. 
+([Newton et al. 2019](https://arxiv.org/abs/1906.10703))
 
 ### Exercise 3: Summing Series
 

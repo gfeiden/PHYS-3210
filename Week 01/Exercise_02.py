@@ -35,7 +35,8 @@ Exercise 02: Chapter 01, Kinder & Nelson
        3. evaluate whether or not the set of chains converged. Be sure
           to confirm with your professor that you got the correct plot.
           
-       4. estimate the star's mass.
+       4. estimate the star's mass. Compare with the mass quoted in the
+          paper. (https://arxiv.org/abs/1906.10703)
 
 
 Created on Tue Aug 06 14:33:00 2019
