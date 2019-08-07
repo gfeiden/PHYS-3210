@@ -10,6 +10,9 @@ we have all of the necessary software and/or user accounts to begin our work.
 **Software**:
  - [Anaconda Python Distribution](https://www.anaconda.com/distribution/) (w/ Spyder, NumPy, SciPy, Matplotlib, VPython)
  - [GitHub Desktop](https://desktop.github.com/)
+ 
+### Readings
+ 1. Handout (by Friday, 23 Aug 2019)
 
 ### Preliminaries
 
@@ -81,3 +84,14 @@ which was discovered to host a young exoplanet.
 ![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots)
 
 Problem 2.5 from Landau+
+
+### Weekly Problem 01
+
+Read the handout prior to class on Friday. Try to understand the derivation
+of Equation 4. Then, complete problem 5.1 (First Computer Lab: HIV Example)
+in Physical Modeling.
+
+__Challenge__: Write a function to compute the viral load and produce 
+figures for assignment part b using your function.
+
+
