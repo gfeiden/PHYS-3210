@@ -20,4 +20,4 @@ _A Student's Guide to Python for Physical Modeling_ by Kinder &amp; Nelson
 [GitHub Desktop](https://desktop.github.com/)
 
 ## Authors
-Gregory A. Feiden, Ph.D. (<gregory.feiden@ung.edu>)
+Gregory A. Feiden, Ph.D.
