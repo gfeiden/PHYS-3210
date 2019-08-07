@@ -89,9 +89,10 @@ Problem 2.5 from Landau+
 
 Read the handout prior to class on Friday. Try to understand the derivation
 of Equation 4. Then, complete problem 5.1 (First Computer Lab: HIV Example)
-in Physical Modeling.
+in Physical Modeling. In addition, answer the following questions:
 
-__Challenge__: Write a function to compute the viral load and produce 
-figures for assignment part b using your function.
+_Challenge_: Write a function to compute the viral load for a given set
+of parameters (`A`, `B`, `alpha`, `beta`) and produce figures for 
+assignment part b using your function.
 
 
