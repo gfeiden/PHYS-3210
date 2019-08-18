@@ -23,9 +23,9 @@ Python, since our intro courses only teach MatLAB and Java.
 There are two required textbooks for this course. Both will serve you well in the
 course, but are excellent references even after you leave this course.
 
-_Computational Physics: Problem Solving with Python_, 3ed, by Landau, Paez, &amp; Bordeianu ($50)
+ 1. _Computational Physics: Problem Solving with Python_, 3ed, by Landau, Paez, &amp; Bordeianu ($50)
 
-_A Student's Guide to Python for Physical Modeling_ by Kinder &amp; Nelson ($18)
+ 2. _A Student's Guide to Python for Physical Modeling_ by Kinder &amp; Nelson ($18)
 
 ## User Accounts
 [GitHub](https://github.com)
