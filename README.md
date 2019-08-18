@@ -9,6 +9,8 @@ MWF 10:00 &mdash; 10:50 in Rogers 103
 
 Instructor: Gregory A. Feiden, Ph.D.
 
+Office Hours: WF 14:00 &ndash; 16:00, TR 13:00 &ndash; 14:00 (Rogers 101)
+
 ## Learning Objectives
  - write software using Python
  - select an appropriate numerical technique to solve a problem
