@@ -1,5 +1,9 @@
 # Computational Techniques in Physics (PHYS 3210)
 
+This course is the study of computational techniques applicable to physics.
+Techniques examined are applied to solve problems from various areas of (astro)physics
+and other areas of science.
+
 ## Class
 MWF 10:00 &mdash; 10:50 in Rogers 103
 
@@ -9,6 +13,11 @@ Instructor: Gregory A. Feiden, Ph.D.
  - write software using Python
  - select an appropriate numerical technique to solve a problem
  - solve physical problems using a computer (here, with Python)
+
+Note that it is not a goal of this course to teach you basic programming skills
+that can be developed by taking one of UNG's computer science courses (CSCI 1301
+or 1371). We will take time to learn those basic skills as they are applied in
+Python, since our intro courses only teach MatLAB and Java.
 
 ## Textbooks
 _Computational Physics: Problem Solving with Python_, 3ed, by Landau, Paez, &amp; Bordeianu ($50)
@@ -81,6 +90,7 @@ Additional course policies are listed in UNG's
 
 ## Authors
 Gregory A. Feiden, Ph.D.
+
 
 ---
 _If you encounter issues accessing the content on this webpage, or require the
