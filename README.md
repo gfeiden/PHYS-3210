@@ -75,5 +75,14 @@ component.
 |  60 - 70   |       D      |
 |   < 60     |       F      |
 
+## Supplemental Syllabus
+Additional course policies are listed in UNG's
+[Supplemental Syllabus](https://ung.edu/academic-affairs/policies-and-guidelines/supplemental-syllabus.php)
+
 ## Authors
 Gregory A. Feiden, Ph.D.
+
+---
+_If you encounter issues accessing the content on this webpage, or require the
+content in another format, call Student Disability Services at 678-717-3855 or
+email [Student Disability Services](mailto:disability-dah@ung.edu)_
