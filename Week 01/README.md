@@ -84,8 +84,15 @@ which was discovered to host a young exoplanet.
 ([Newton et al. 2019](https://arxiv.org/abs/1906.10703))
 
 ### Exercise 3: Summing Series
+A common way to determine the value of a function is to sum over a series.
+For example, the Maclaurin series for sin(x) is 
 
-![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots) (1) 
+![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots).
+
+Perform a series expansion to derive the equation above. Next, write down
+a general equation for a finite summation of the series that is valid 
+between _n = 0_ and _n = N_, where _N &#U+2265; 0_
+
 
 Problem 2.5 from Landau+
 
