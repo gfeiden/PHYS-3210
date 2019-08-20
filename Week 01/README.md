@@ -91,7 +91,13 @@ For example, the Maclaurin series for sin(x) is
 
 Perform a series expansion to derive the equation above. Next, write down
 a general equation for a finite summation of the series that is valid 
-between _n = 0_ and _n = N_, where _N_ ≥ 0.
+between _n_ = 0 and _n_ = _N_, where _N_ ≥ 0. This will serve as your 
+_algorithm_ for summing the series.
+
+The largest problem with the algorithm is that we do not know which value
+of _N_ is suitable when calcualting the series. Instead of guessing, have
+your code proceed with the summation until the _N_^{th} term contributes
+a negligible amount to the final summation, say one part in 10^{8}.
 
 
 Problem 2.5 from Landau+
