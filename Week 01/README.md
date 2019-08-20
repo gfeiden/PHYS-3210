@@ -85,7 +85,7 @@ which was discovered to host a young exoplanet.
 
 ### Exercise 3: Summing Series
 
-![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots)
+![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots) (1) 
 
 Problem 2.5 from Landau+
 
