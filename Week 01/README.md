@@ -96,11 +96,14 @@ _algorithm_ for summing the series.
 
 The largest problem with the algorithm is that we do not know which value
 of _N_ is suitable when calcualting the series. Instead of guessing, have
-your code proceed with the summation until the _N_^{th} term contributes
-a negligible amount to the final summation, say one part in 10^{8}.
+your code proceed with the summation until the _N_<sup>th</sup> term contributes
+a negligible amount to the final summation, say 1 part in 10<sup>8</sup>.
 
-
-Problem 2.5 from Landau+
+Before writing any lines of code, try writing out on paper how your code
+should preceed. Discuss your approach with your neighbor. Code up your 
+approach in Spyder once you're done. Which value for _N_ was required to 
+reach the desired precision? How does your value compare with the value 
+returned by NumPy's sine function?
 
 ### Weekly Problem 01
 
