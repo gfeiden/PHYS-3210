@@ -91,7 +91,7 @@ For example, the Maclaurin series for sin(x) is
 
 Perform a series expansion to derive the equation above. Next, write down
 a general equation for a finite summation of the series that is valid 
-between _n = 0_ and _n = N_, where _N &#U+2265; 0_
+between _n = 0_ and _n = N_, where _N &#2265; 0_
 
 
 Problem 2.5 from Landau+
