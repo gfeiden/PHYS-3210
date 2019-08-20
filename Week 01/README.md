@@ -84,26 +84,45 @@ which was discovered to host a young exoplanet.
 ([Newton et al. 2019](https://arxiv.org/abs/1906.10703))
 
 ### Exercise 3: Summing Series
-A common way to determine the value of a function is to sum over a series.
-For example, the Maclaurin series for sin(x) is 
+A common way to determine the value of a function is to sum over an infinite 
+series. For example, the Maclaurin series for sin(x) is 
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Csin%28x%29%20%3D%20x%20-%20%5Cfrac%7Bx%5E3%7D%7B3%21%7D%20&plus;%20%5Cfrac%7Bx%5E5%7D%7B5%21%7D%20-%20%5Cfrac%7Bx%5E7%7D%7B7%21%7D%20&plus;%20%5Ccdots).
 
-Perform a series expansion to derive the equation above. Next, write down
-a general equation for a finite summation of the series that is valid 
+Perform a series expansion to derive the equation above. Next, write down 
+a general expression for the sum of the series that is valid 
 between _n_ = 0 and _n_ = _N_, where _N_ ≥ 0. This will serve as your 
-_algorithm_ for summing the series.
+_algorithm_ for summing the series on your computer.
 
-The largest problem with the algorithm is that we do not know which value
-of _N_ is suitable when calcualting the series. Instead of guessing, have
-your code proceed with the summation until the _N_<sup>th</sup> term contributes
-a negligible amount to the final summation, say 1 part in 10<sup>8</sup>.
+One problem with the algorithm is that we do not know which value
+of _N_ is suitable for calculating the series' sum. Instead of guessing, 
+have your code compute the partial sum until the _N_<sup>th</sup> term 
+contributes a negligible amount to the partial sum, say 1 part in 
+10<sup>8</sup>.
 
 Before writing any lines of code, discuss an approach with your neighbor
 and write out on paper how your code should proceed. Code up your 
-approach in Spyder once you're done. Which value for _N_ was required to 
-reach the desired precision? How does your value compare with the value 
-returned by NumPy's sine function?
+approach in Spyder once you're done. 
+
+Here are your tasks:
+
+   1. Perform a Maclaurin series expansion of the function sin(x) to 
+      derive the equation above. 
+   2. Derive a generalized, finite summation form for the series based 
+      on your Maclaurin series expansion.
+   3. Discuss with your neighbor about how to approach coding the problem
+      and write out on paper how you code should proceed. 
+   4. Code your approach in Spyder once you are finished.
+   5. Show that, for small values of x, the series converges.
+   6. Which value for _N_ was required to reach the desired precision and
+      obtain convergence?
+   7. Compare your results to the value determined using NumPy's sine 
+      function.
+   8. Steadily increase x and write down the relative error between your
+      calculated value for sin(x) and the NumPy function's value. 
+   9. What do you notice about the relative error?
+  10. Will there be a time when the series does not converge? Make a plot
+      of the relative error vs x to support your answer.
 
 ### Weekly Problem 01
 
