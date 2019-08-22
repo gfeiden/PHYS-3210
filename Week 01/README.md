@@ -125,8 +125,7 @@ Here are your tasks:
    9. Will there be a time when the series does not numerically converge? 
       Make a figure or two from the data you generate to support your 
       conclusion.
-  10. _Challenge_ How can you modify your algorithm to be valid for any
-      value of _x_?
+  10. _Challenge_ Modify your algorithm to be valid for any value of _x_.
 
 ### Weekly Problem 01
 
