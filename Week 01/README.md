@@ -125,14 +125,23 @@ Here are your tasks:
    9. Will there be a time when the series does not numerically converge? 
       Make a figure or two from the data you generate to support your 
       conclusion.
-  10. _Challenge_ Modify your algorithm to be valid for any value of _x_.
+  10. **_Challenge_** Modify your algorithm to be valid for any value of _x_.
 
 ### Weekly Problem 01
 
 Read the handout prior to class on Friday. Try to understand the derivation
-of Equation 4. Then, complete problem 5.1 (First Computer Lab: HIV Example)
-in Physical Modeling. In addition, answer the following questions:
+of Equation 4. Before you begin, derive Equation 4 from the reading and 
+explain in detail your reasoning for each step of the derivation.
 
-_Challenge_: Write a function to compute the viral load for a given set
-of parameters (`A`, `B`, `alpha`, `beta`) and produce figures for
-assignment part b using your function.
+Next, complete Problem 5.1 (First Computer Lab: HIV Example) in Physical 
+Modeling. In addition, answer the following questions:
+
+ 1. What were the key assumptions made in the derivation and in your 
+    approach to solving the problem that made the problem tractable? 
+ 2. What would be the consequences of relaxing the assumptions listed
+    in question 1? How might your approach to solving the problem change?
+ 3. How did the two limiting cases help simplify the problem?
+
+**_Challenge_**: Write a function to compute the viral load for a given set
+of parameters (`A`, `B`, `alpha`, `beta`). Produce figures for assignment 
+part b using your function.
