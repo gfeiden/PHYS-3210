@@ -51,6 +51,7 @@ air resistence, for now.
 Modify your equations and code to include the effects of drag on the 
 projectile. Assume the drag force is proportional to the object's velocity
 squared, i.e.,
-![Drag Force Equation]{https://latex.codecogs.com/gif.latex?F_%7BD%2C%5Chat%7B%5Cj%7D%7D%20%3D%20c%5Ccdot%20v_%7B%5Chat%7B%5Cj%7D%7D%5E2} 
+
+![equation]{https://latex.codecogs.com/gif.latex?F_%7BD%2C%5Chat%7B%5Cj%7D%7D%20%3D%20c%5Ccdot%20v_%7B%5Chat%7B%5Cj%7D%7D%5E2} 
 
 
