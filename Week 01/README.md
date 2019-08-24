@@ -127,7 +127,7 @@ Here are your tasks:
       conclusion.
   10. **_Challenge_** Modify your algorithm to be valid for any value of _x_.
 
-### Weekly Problem 01
+### Weekly Problem 01 (Delayed until Week 2)
 
 Read the handout prior to class on Friday. Try to understand the derivation
 of Equation 4. Before you begin, derive Equation 4 from the reading and 
