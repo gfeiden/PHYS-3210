@@ -4,7 +4,6 @@
  1. Handout (by Monday)
  2. Chapter 4, _Physical Modeling_ (by Monday)
  3. Sections 6.1 &ndash; 6.4, _Physical Modeling_ (by Wednesday)
- 4. 
 
 ### Weekly Problem 01: HIV Lab
 
@@ -21,8 +20,8 @@ Modeling. In addition, answer the following questions:
     in question 1? How might your approach to solving the problem change?
  3. How did the two limiting cases help simplify the problem?
 
-Please submit answers to these questions on paper (written or typed) and
-upload your code to GitHub before Friday, 30 August 2019.
+Please upload your answers to these questions and your code to GitHub
+by Friday, 30 August 2019.
 
 ~~**_Challenge_**: Write a function to compute the viral load for a given set
 of parameters (`A`, `B`, `alpha`, `beta`). Produce figures for assignment 
@@ -43,15 +42,17 @@ document, and describe how adjusting `A` and `alpha` change the function's
 properties. Be sure to reference your figure and describe each change
 in detail. 
 
+Upload your write up and code to GitHub.
+
 ### Weekly Problem 02: Projectile Motion
 Write a function that returns a projectile's trajectory for a given set 
 of initial data (_x_ &amp; _y_ position, _x_ &amp; _y_ velocity). Ignore 
 air resistence, for now.
 
 Modify your equations and code to include the effects of drag on the 
-projectile. Assume the drag force is proportional to the object's velocity
-squared, i.e.,
+projectile. Assume the drag force along a given direction of motion is 
+proportional to the object's velocity squared, i.e.,
 
-![equation](https://latex.codecogs.com/gif.latex?F_%7BD%2C%5Chat%7B%5Cj%7D%7D%20%3D%20c%5Ccdot%20v_%7B%5Chat%7B%5Cj%7D%7D%5E2)
+![equation](https://latex.codecogs.com/gif.latex?%5Clarge%20F_%7BD%2C%5Chat%7B%5Cj%7D%7D%20%3D%20c%5Ccdot%20v_%7B%5Chat%7B%5Cj%7D%7D%5E2)
 
 
