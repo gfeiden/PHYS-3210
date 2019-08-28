@@ -79,5 +79,7 @@ With your function, you should
     (i.e., without changing your code, give it input that you think will
     return a non-physical answer).
 
+Write up your results (including plots) and push your code and paper to 
+to GitHub.
 
 
