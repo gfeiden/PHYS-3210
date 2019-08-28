@@ -45,14 +45,22 @@ in detail.
 Upload your write up and code to GitHub.
 
 ### Weekly Problem 02: Projectile Motion
-Write a function that returns a projectile's trajectory for a given set 
-of initial data (_x_ &amp; _y_ position, _x_ &amp; _y_ velocity). Ignore 
-air resistence, for now.
-
-Modify your equations and code to include the effects of drag on the 
-projectile. Assume the drag force along a given direction of motion is 
-proportional to the object's velocity squared, i.e.,
+Imagine launching a ball with some device (a cannon, a spring, your arm)
+that gives the ball an initial velocity, **_v_**, at some angle with respect
+to the ground. Write a function that solves the 2D equations of motion 
+to compute the ball's trajectory and its velocity over time. Assume that 
+air exerts a drag force on the ball along a given direction of motion that 
+is proportional to the object's velocity squared, i.e., 
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Clarge%20F_%7BD%2C%5Chat%7B%5Cj%7D%7D%20%3D%20c%5Ccdot%20v_%7B%5Chat%7B%5Cj%7D%7D%5E2)
+
+Your function should accept the ball initial position, velocity, and launch
+angle as input. After computing the trajectory, the function should return
+the _x_ and _y_ positions, the _x_ and _y_ velocities, and the time.
+
+
+,
+
+
 
 
