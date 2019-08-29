@@ -4,7 +4,7 @@
 
  1. Section 3.1 (by Monday)
 
-### Exercise 05
+### Exercise 05: Subtractive Cancelation &ndash; Harmonic Series
 Round off error has a way of creeping into seemingly simple computations.
 Consider, for example, two different ways to calculate a finite harmonic 
 series,
@@ -25,5 +25,5 @@ Your task is to
     this is the case, find an analytical solution for the _N = 6_ harmonic
     series. Compare your two algorithmic answers to the analytical solution.
 
-### Exercise 06
+### Exercise 06: Subtractive Cancelation &ndash; Quadratic Formula
 
