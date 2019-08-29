@@ -18,7 +18,7 @@ Your task is to
  1. Write a function that accepts _N_ as an input and returns a finite 
     harmonic series using each algorithm. (or write two functions, it's
     up to you).
- 2. Make a log-log plot showing &nbsp;&nbsp;
+ 2. Make a plot showing &nbsp;&nbsp;
     ![equation](https://latex.codecogs.com/gif.latex?%5Clarge%20%5Cfrac%7BH_N%5E%7B%5Crm%20up%7D%20-%20H_N%5E%7B%5Crm%20dn%7D%7D%7B%7CH_N%5E%7B%5Crm%20up%7D%7C%20&plus;%20%7CH_N%5E%7B%5Crm%20dn%7D%7C%7D%20%5Ctextrm%7B%20vs%20%7D%20N)
  3. Observe the linear regime in your figure and explain why the downward
     sum is generally more precise. If you are having trouble seeing that
