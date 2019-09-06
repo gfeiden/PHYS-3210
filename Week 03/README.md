@@ -25,5 +25,6 @@ Your task is to
     this is the case, find an analytical solution for the _N = 6_ harmonic
     series. Compare your two algorithmic answers to the analytical solution.
 
-### Exercise 06: Subtractive Cancelation &ndash; Quadratic Formula
+### Exercise 06: Random Walking
+
 
