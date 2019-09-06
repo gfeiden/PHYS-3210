@@ -52,6 +52,9 @@ Use the code provided to guide you through the following taks.
     the standard deviation, and the median distance. Describe the distribution
     of final distances. Is this what you expected? Explain why it makes 
     sense and explain what it tells you about your results.
+ 6. Describe a physical scenario where this type of simulation might be 
+    a useful model for reality. [note: do not use the scenario described 
+    in the handout]
  6. _Challenge_: Expand your simulations to 3 dimensions and describe how
     your results for part 5 change.
 
