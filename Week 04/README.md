@@ -48,7 +48,7 @@ protein in such a way so as to maximize the number of unconnected nonpolar
 monomer neighbors.
 
 Your tasks are to:
- 1. modify your random walk program, `Exercise_06.py` so that it can produce a randomly 
+ 1. modify your random walk program, `Exercise_06.py`, so that it can produce a randomly 
     folded chain of monomers. Assume that each monomer has a fixed length 
     (unit length = 1) and that each monomer can, at most, be connected to 
     two other monomers. In other words, we want our random walker to move 
@@ -68,8 +68,8 @@ We're going to continue working with your self-avoiding random walk
 program to build proteins. 
 
 Your tasks are to:
- 1. Calculate the chain's energy, _E = -c * f_, where _c_ is some constant
-    (e.g., c = 1) and _f_ is the number of nonpolar monomers that are neighbors,
+ 1. Calculate the chain's energy, _E = &minus;&epsilon; &#8729; f_, where _&epsilon;_ is some constant
+    (e.g., _&epsilon; = 1_) and _f_ is the number of nonpolar monomers that are neighbors,
     but that are **_not_** connected. Record this value along with the 
     chain's length.
  2. Run a reasonably large number of simulations and save the output from
