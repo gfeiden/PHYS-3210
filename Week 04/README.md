@@ -37,6 +37,51 @@ Use the `powerResidue` function in `rand.py` to accomplish these tasks:
 Write up the results of each part, including figures, and push your 
 document to GitHub.
 
-### Exercise 08: Self-Avoiding Random Walks
+### Lab 03: Self-Avoiding Random Walks, pt 1
+Proteins are large molecules made from a series of smaller molecular chains
+called _monomers_. These monomers can be nonpolar hydrophobic monomers 
+that are repelled by water molecules or polar monomers that are attracted
+by water. By stringing together nonpolar and polar monomers, we can build
+a protein. However, as with most things, nature strives to create monomer
+chains that minimize the chain's energy. This is acheived by folding the
+protein in such a way so as to maximize the number of unconnected nonpolar
+monomer neighbors.
 
-### Lab 03: Spontaneous Decay
+Your tasks are to:
+ 1. modify your random walk program so that it can produce a randomly 
+    folded chain of monomers. Assume that each monomer has a fixed length 
+    (unit length = 1) and that each monomer can, at most, be connected to 
+    two other monomers. In other words, we want our random walker to move 
+    on a 2D lattice in such a way that it cannot connect to a location where 
+    it has previously been; there are at most three possible locations for 
+    the walker to move. Once the walker reaches a location where it cannot
+    step any further (i.e., it's surrounded by other monomers), the simulation
+    ends and you've finished building your protein. 
+ 2. At the end of each step, randomly decide whether the monomer was a 
+    nonpolar or polar monomer, with a weighting such that nonpolar monomers
+    are more likely than polar monomers. 
+ 3. Record the chain's length.
+ 4. Visualize the resulting chain.
+
+### Lab 03: Self-Avoiding Random Walks, pt 2
+We're going to continue working with your self-avoiding random walk 
+program to build proteins. 
+
+Your tasks are to:
+ 1. Calculate the chain's energy, _E = -c * f_, where _c_ is some constant
+    (e.g., c = 1) and _f_ is the number of nonpolar monomers that are neighbors,
+    but that are **_not_** connected. Record this value along with the 
+    chain's length.
+ 2. Run a reasonably large number of simulations and save the output from
+    each (i.e., simulation number, chain length, energy, number of folds). 
+    Bonus: save the full walk for each chain so that you can visualize them 
+    later.
+ 3. Determine how the lowest energy for each chain depends on the chain
+    length. Compare your results to those from more sophisticated simulations
+    by researching similar results using other methods (e.g., molecular 
+    dynamics) or by finding results for real protein structures.
+ 4. Write about the successes and (possible) failures of your model. Use
+    figures and visualizations to support your arguments.
+ 5. _Challenge_: Extend your results to 3D. Only do this once you have 
+    completed every other step and written up your results.
+
