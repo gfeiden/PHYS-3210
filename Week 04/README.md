@@ -48,7 +48,7 @@ protein in such a way so as to maximize the number of unconnected nonpolar
 monomer neighbors.
 
 Your tasks are to:
- 1. modify your random walk program so that it can produce a randomly 
+ 1. modify your random walk program, `Exercise_06.py` so that it can produce a randomly 
     folded chain of monomers. Assume that each monomer has a fixed length 
     (unit length = 1) and that each monomer can, at most, be connected to 
     two other monomers. In other words, we want our random walker to move 
