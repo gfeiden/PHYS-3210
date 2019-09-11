@@ -56,7 +56,9 @@ Your tasks are to:
     it has previously been; there are at most three possible locations for 
     the walker to move. Once the walker reaches a location where it cannot
     step any further (i.e., it's surrounded by other monomers), the simulation
-    ends and you've finished building your protein. 
+    ends and you've finished building your protein. **Carefully devise a 
+    plan with a partner, or partners, and write pseudocode for executing 
+    this plan**.
  2. At the end of each step, randomly decide whether the monomer was a 
     nonpolar or polar monomer, with a weighting such that nonpolar monomers
     are more likely than polar monomers. 
