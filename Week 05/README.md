@@ -42,9 +42,12 @@ derivative of the function _f(x)_ = sin(_x_). Here are your tasks:
     figures as evidence.
  7. What is the difference between NumPy's `gradient` function and your 
     foward difference algorithm? Explain.
- 8. _Challenge_: Add random noise to your function, i.e., _f_(_x_) = 
+ 8. Compute second derivatives using each algorithm and compare your results
+    to the analytical value. Graph both the function and the relative error
+    compared to the exact value.
+ 9. _Challenge_: Add random noise to your function, i.e., _f_(_x_) = 
     sin(_x_) + &epsilon;, where &epsilon; is a small, random number.
- 8. _Bonus_: Do the same test, but for a different function, e.g., 
+10. _Bonus_: Do the same test, but for a different function, e.g., 
     _f_(_x_) = x<sup>2</sup> or _f_(_x_) = _e_<sup>_x_</sup>.
     
 ### Exercise 09: Integration Techniques
