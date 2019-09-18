@@ -81,8 +81,8 @@ Here are your tasks for today:
      function `trapz`. 
   5. Import the SciPy library `scipy.integrate` and use a few different 
      integration routines to compare to the results of your integrator. 
-  6. Repeat steps 2 &ndash; 5 for the functions listed below. Explain why
-     your integrator may have trouble with these functions. Which integrators
+  6. Repeat steps 2 &ndash; 5 for function _f<sub>1</sub>(x)_ listed below. Explain why
+     your integrator may have trouble with this function. Which integrators
      from SciPy provide consistent results and which of the ones you tested
      are more like the results from your integrator?
   7. _For Your Write Up_: Look up the algorithm for one of the SciPy 
