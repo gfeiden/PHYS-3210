@@ -97,7 +97,7 @@ Functions to integrate:
 ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20f_%7B2%7D%28x%29%20%3D%20%5Cint_%7B0%7D%5E%7B2%5Cpi%7D%20%5Csin%5Ex%28100x%29%5Ctextup%7Bd%7Dx)
 
   
-## Monte Carlo Integration
+## Exercise 10: Monte Carlo Integration
 Integration methods discussed on Wednesday (Exercise 09) work very well
 for single and double integrals. As the dimensionality of your integral 
 increases, it's preferable to use Monte Carlo (MC) methods. You've used 
@@ -123,7 +123,7 @@ by performing a 2D integration (_Computational Physics_, pg 104).
     _&minus;1 &le; y<sub>i</sub> &le; 1_.
  4. For each point, calculate its distance _r<sub>i</sub>_ from the square's
     center. If _r<sub>i</sub>_ &le; 1, increase the number of points in
-    the pond by one `_N<sub>pond</sub>_ += 1`.
+    the pond by one `N_pond += 1`.
  5. Calculate the value of &pi; knowing that the number of points in the
     pond compared to the total number of points is related to the ratio 
     of the pond's area to the square's area (assuming all points are randomly
@@ -131,8 +131,19 @@ by performing a 2D integration (_Computational Physics_, pg 104).
  
     ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20%5Cfrac%7BN_%7B%5Crm%20pond%7D%7D%7BN%7D%20%3D%20%5Cfrac%7BA_%7B%5Crm%20pond%7D%7D%7BA_%7B%5Crm%20square%7D%7D)
  
- 6. Increase your sample size _N_ until you get &pi; accurate to three 
+ 6. Plot your sample points and draw a cirlce to show which points are 
+    within the pond. Ideally, your visualization would plot your sample
+    using different color points for the points inside and outside of the
+    pond. 
+ 7. Increase your sample size _N_ until you get &pi; accurate to three 
     significant figures. Approximately how large a value for _N_ was required?
+
+Write up your results and include at least one figure as described in part 6.
+ 
+If you finish early, go back and work on previous exercises, or re-read
+Section 5.15 and use an MC method to evaluate the integral
+
+![equation](https://latex.codecogs.com/png.latex?%5Clarge%20I%20%3D%20%5Cint_%7B0%7D%5E%7B10%7D%20x%5E2%20%5Ctextup%7Bd%7Dx)
     
 
 
