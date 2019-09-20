@@ -1,4 +1,4 @@
-## Week 04: Differentiation &amp; Integration
+## Week 05: Differentiation &amp; Integration
 
 ### Readings
 From _Computational Physics_:
@@ -98,6 +98,44 @@ Functions to integrate:
 
   
 ## Monte Carlo Integration
-A rather simple way of computing an integral is to rely on the
-mean value theorem.  
+Integration methods discussed on Wednesday (Exercise 09) work very well
+for single and double integrals. As the dimensionality of your integral 
+increases, it's preferable to use Monte Carlo (MC) methods. You've used 
+MC methods already, they're methods that require the use of random 
+numbers. While it's rather intuitive to understand why MC methods work
+for random walks, it's perhaps not obvious that they can be used to evaluate
+integrals.
+
+The most basic MC methods rely on using a _sampling_ technique. To illustrate
+how a sample technique works, you're going to compute the value of &pi;
+by performing a 2D integration (_Computational Physics_, pg 104). 
+
+ 1. Imagine a circular pond within a square with sides of length 2 units.
+    Place the circular pond at the square's center and allow it to have 
+    a radius _R = 1_ unit.
+ 2. Recall that the analytic answer is
+ 
+    ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20A%20%3D%20%5Ciint%20r%20%5Ctextup%7Bd%7Dr%5Ctextup%7Bd%7D%5Cphi%20%3D%20%5Cpi%20R%5E2)
+    
+    which is equal to &pi; if _R = 1_ unit.
+ 3. Generate a random sample of _N_ points (_x<sub>i</sub>_, _y<sub>i</sub>_) 
+    within the square such that _&minus;1 &le; x<sub>i</sub> &le; 1_ and 
+    _&minus;1 &le; y<sub>i</sub> &le; 1_.
+ 4. For each point, calculate its distance _r<sub>i</sub>_ from the square's
+    center. If _r<sub>i</sub>_ &le; 1, increase the number of points in
+    the pond by one `_N<sub>pond</sub>_ += 1`.
+ 5. Calculate the value of &pi; knowing that the number of points in the
+    pond compared to the total number of points is related to the ratio 
+    of the pond's area to the square's area (assuming all points are randomly
+    and uniformly distributed) 
+ 
+    ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20%5Cfrac%7BN_%7B%5Crm%20pond%7D%7D%7BN%7D%20%3D%20%5Cfrac%7BA_%7B%5Crm%20pond%7D%7D%7BA_%7B%5Crm%20square%7D%7D)
+ 
+ 6. Increase your sample size _N_ until you get &pi; accurate to three 
+    significant figures. Approximately how large a value for _N_ was required?
+    
+
+
+
+
     
