@@ -97,6 +97,7 @@ Functions to integrate:
 ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20f_%7B2%7D%28x%29%20%3D%20%5Cint_%7B0%7D%5E%7B2%5Cpi%7D%20%5Csin%5Ex%28100x%29%5Ctextup%7Bd%7Dx)
 
   
-    
-    
+## Monte Carlo Integration
+A rather simple way of computing an integral is to rely on the
+mean value theorem.  
     
