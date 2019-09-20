@@ -107,7 +107,7 @@ for random walks, it's perhaps not obvious that they can be used to evaluate
 integrals.
 
 The most basic MC methods rely on using a _sampling_ technique. To illustrate
-how a sample technique works, you're going to compute the value of &pi;
+how a sampling technique works, you're going to compute the value of &pi;
 by performing a 2D integration (_Computational Physics_, pg 104). 
 
  1. Imagine a circular pond within a square with sides of length 2 units.
