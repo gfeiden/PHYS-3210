@@ -38,7 +38,7 @@ Today, your tasks are to:
     estimate by equation 5.80 in _Compuational Physics_ (pg 106)?
  5. _Bonus_: Integrate
 
-    ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20f_%7B1%7D%28x%29%20%3D%20%5Cint_%7B0%7D%5E%7B2%5Cpi%7D%20%5Csin%28100x%29%5Ctextup%7Bd%7Dx)
+    ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20I_%7B1%7D%20%3D%20%5Cint_%7B0%7D%5E%7B2%5Cpi%7D%20%5Csin%28100x%29%20%5Ctextup%7Bd%7Dx)
 
     How does it compare to your results from Exercise 09?
   
