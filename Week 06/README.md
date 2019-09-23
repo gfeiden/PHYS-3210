@@ -26,11 +26,12 @@ Today, your tasks are to:
 
     ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20I%20%3D%20%5Cint_%7B0%7D%5E%7B10%7D%20x%5E2%20%5Ctextup%7Bd%7Dx)
     
-    using an MC Mean Value Method by sampling the function 1000 times. Save each x, y 
-    pair. How does your value compare to the analytical value.
+    using an MC Mean Value Method by sampling the function 1,000 times. Save each x, y 
+    pair. How does your value compare to the analytical value? What if you used 10,000
+    samples?
  2. Compute the MC integral, again. Did you get the same value? Plot the (x, y) pairs. 
     What does the resulting figure look like? Does it make sense, given what you've done?
- 3. Compute the MC integral 100 times, each drawing 1000 samples, and calculate the 
+ 3. Compute the MC integral 100 times, each drawing 1,000 samples, and calculate the 
     mean and median values of the integral. How do the mean and median values compare 
     to the analytical value? Plot a histogram of the 100 integral values.
  4. Estimate the error in your calculation by finding the standard deviation of the 
