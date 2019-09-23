@@ -24,8 +24,8 @@ we are easily able to calculate the _sample mean_. We can then approximate the i
 Today, your tasks are to: 
  1. Integrate the function 
 
- ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20I%20%3D%20%5Cint_%7B0%7D%5E%7B10%7D%20x%5E2%20%5Ctextup%7Bd%7Dx)
- 
+    ![equation](https://latex.codecogs.com/png.latex?%5Clarge%20I%20%3D%20%5Cint_%7B0%7D%5E%7B10%7D%20x%5E2%20%5Ctextup%7Bd%7Dx)
+    
     using an MC Mean Value Method by sampling the function 1000 times. Save each x, y 
     pair. How does your value compare to the analytical value.
  2. Compute the MC integral, again. Did you get the same value? Plot the (x, y) pairs. 
