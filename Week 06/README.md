@@ -68,11 +68,11 @@ Your tasks are to:
  
     ![equation](https://latex.codecogs.com/gif.latex?%5Cint_a%5Eb%20%5Ctextup%7Bd%7Dx_1%20%5Cint_c%5Ed%20%5Ctextup%7Bd%7Dx_2%20%5Ccdots%20%5Cint_s%5Et%20%5Ctextup%7Bd%7Dx_%7B10%7Df%28x_1%2C%20x_2%2C%20%5Ccdots%2C%20x_%7B10%7D%29%20%5Csimeq%20%28b%20-%20a%29%28d%20-%20c%29%5Ccdots%20%28t%20-%20s%29%5Clangle%20f%5Crangle)
     
-    and evaluate the integral _I<sub>10D</sub>_ using a MC method.
- 3. Compare your answer to the analytic solution, _I<sub>10D</sub>_ = 155/6.
+    and evaluate the integral I<sub>10D</sub> using a MC method.
+ 3. Compare your answer to the analytic solution, I<sub>10D</sub> = 155/6.
  4. Evaluate the integral for different sample sizes, starting with something
     unreasonably small (_N = 2_). Plot the relative error of your calculation
-    against 1/<sqrt>N</sqrt>. Desrcibe your results.
+    against 1/&radic;N. Desrcibe your results.
  5. How many MC samples did you need to compute a reasonably accurate 
     solution to the integral? How does the time for computation of the MC
     method compare to the brute force, limit definition method?
