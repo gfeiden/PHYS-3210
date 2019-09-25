@@ -62,7 +62,7 @@ Your tasks are to:
     wrote last week). Assume your computer can perform 10<sup>6</sup> 
     evaluations of the integrand per second and that you choose a reasonably
     small value for _h_ such that you break each domain up into 100 segments.
-    (i.e., _h = (b &minus; a) / 100). What if you wanted to break each 
+    (i.e., _h_ = (b &minus; a) / 100). What if you wanted to break each 
     domain into 1000 segments?
  2. Generalize the mean value theorem to N dimensions, i.e., 
  
