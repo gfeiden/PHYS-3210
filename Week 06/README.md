@@ -72,7 +72,7 @@ Your tasks are to:
  3. Compare your answer to the analytic solution, I<sub>10D</sub> = 155/6.
  4. Evaluate the integral for different sample sizes, starting with something
     unreasonably small (_N = 2_). Plot the relative error of your calculation
-    against 1/&radic;N. Desrcibe your results.
+    against 1/&radic;N. Describe your results.
  5. How many MC samples did you need to compute a reasonably accurate 
     solution to the integral? How does the time for computation of the MC
     method compare to the brute force, limit definition method?
