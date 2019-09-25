@@ -76,6 +76,10 @@ Your tasks are to:
  5. How many MC samples did you need to compute a reasonably accurate 
     solution to the integral? How does the time for computation of the MC
     method compare to the brute force, limit definition method?
+ 6. Up to how many dimensions is it more efficient to use a limit definition 
+    method compared to an MC mean value method? 
+ 7. _Bonus_: At what point does an MC mean value method become more accurate
+    than a limit definition method, regardless of computational efficiency?
 
 ### Exercise 13: Acceptance &amp; Rejection Methods
 
