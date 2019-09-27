@@ -82,7 +82,38 @@ Your tasks are to:
     than a limit definition method, regardless of computational efficiency?
 
 ### Exercise 13: Acceptance &amp; Rejection Methods
+For Exercises 11 and 12, we leveraged the _mean value theorem_ to calculate
+the value of an integral with a Monte Carlo method. However, we can also
+apply the same "stone throwing" technique that we used to compute the value
+of &pi; to create a weighted probability distribution that will be useful
+if we ever need to draw samples from a distribution that is not uniform 
+(i.e., equal probability of all values). 
 
+The basic idea is to select a random point, say (x, y), and see whether
+it lies between the function, f(x), and the zero-line (i.e., y = 0). If 
+the value lies between the zero line and f(x), you accept the point and 
+include it in your final distribution. You reject points that lie above
+f(x). This provides a way to compute a integral _and_ create a _probability
+distribution function_ (PDF).
+
+Your tasks are to:
+  1. Integrate the function f(x) = x<sup>2</sup> between 0 and 10 using 
+     a random sampling technique and counting the number of accepted vs
+     rejected points. How many samples did you need to draw to get a 
+     reasonable estimate of the integral? 
+  2. Make a plot showing the rejected points in one color and the accepted
+     points in another color.
+  3. Do the same for a trickier function: f(x) = sin(x). Integrate it 
+     from 0 to 2&pi;. How does your integral compare to the analytical 
+     value? Do you think you'll ever be able to calculate the integral 
+     to be precisely equal to the analytical value? Explain why or why not.
+  4. Now make up a function in one dimension, g(x), and integrate it. Be
+     creative and make something strange! Plot the function and the 
+     resulting accepted / rejected points.
+  5. Explain how you might use the resulting sample of accepted points to
+     create a weighted random sample from a probability distribution. For
+     example, if you wanted to select a random point from a Gaussian (i.e., 
+     normal) distribution. 
 
 
 
