@@ -107,9 +107,9 @@ Your tasks are to:
      from 0 to 2&pi;. How does your integral compare to the analytical 
      value? Do you think you'll ever be able to calculate the integral 
      to be precisely equal to the analytical value? Explain why or why not.
-  4. Now make up a function in one dimension, g(x), and integrate it. Be
-     creative and make something strange! Plot the function and the 
-     resulting accepted / rejected points.
+  4. Now make up a function in one dimension, g(x), and integrate it over
+     some domain. Be creative and make something strange! Plot the function 
+     and the resulting accepted / rejected points.
   5. Explain how you might use the resulting sample of accepted points to
      create a weighted random sample from a probability distribution. For
      example, if you wanted to select a random point from a Gaussian (i.e., 
