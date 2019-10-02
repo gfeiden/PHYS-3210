@@ -34,22 +34,24 @@ _L_<sub>2</sub> = _L_<sub>3</sub> = 4 dm and a horizontal bar _L_ = 8 dm,
 as shown in Figure 6.1 (in your book). 
 
 Your tasks are to:
- 1. Come up with a first guess for each of the unknown parameters in the
+ 1. Write down the relevant equations for static equilibrium (see your 
+    book for guidance).
+ 2. Come up with a first guess for each of the unknown parameters in the
     problem (tensions &amp; angles). Discuss with your neighbor and your
     professor how you came up with your initial guess.
- 2. Find the angles assumed by the strings and the tensions exerted by 
+ 3. Find the angles assumed by the strings and the tensions exerted by 
     the strings.
- 3. Discuss whether your solution is physically reasonable. For example, 
+ 4. Discuss whether your solution is physically reasonable. For example, 
     check that the tensions are positive and that the inferred angles 
     correspond to a realistic geometry (i.e., make a sketch). Compare the 
     string tensions to the weights. Do they appear to be reasonable?
- 4. See at what point your initial guess for the string angles is so bad 
+ 5. See at what point your initial guess for the string angles is so bad 
     that the computer cannot find a physical solution.
- 5. Change the weights and string lengths. Test whether you are able to
+ 6. Change the weights and string lengths. Test whether you are able to
     find a solution. Make a few plots to explore the dependency between
     different variables. Were there any surprising dependencies that you
     uncovered? Explain why or why not.
- 6. _**Challenge**_ Solve the same problem, but with three masses and 4
+ 7. _**Challenge**_ Solve the same problem, but with three masses and 4
     lengths of string.
 
 
