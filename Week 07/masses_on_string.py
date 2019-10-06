@@ -69,13 +69,23 @@ def makeFunction(L, Ls, W, X):
     f[8] = X[7]*X[3] - X[8]*X[5]
     
     return f
+    
+def calcAngles(X):
+    """ """
+    angles = np.zeros((3, 1))
+    
+    angles[0] = np.arcsin(X[0])*180./np.pi
+    angles[1] = np.arcsin(X[2])*180./np.pi
+    angles[2] = np.arcsin(X[4])*180./np.pi
+    
+    return angles
 
 def checkChange(dX):
     """ """
-    tol = 1.0e-6
-    if dX[0] < tol and dX[1] < tol and dX[2] < tol and \
-       dX[3] < tol and dX[4] < tol and dX[5] < tol and \
-       dX[6] < tol and dX[7] < tol and dX[8] < tol:
+    tol = 1.0e-8
+    if abs(dX[0]) < tol and abs(dX[1]) < tol and abs(dX[2]) < tol and \
+       abs(dX[3]) < tol and abs(dX[4]) < tol and abs(dX[5]) < tol and \
+       abs(dX[6]) < tol and abs(dX[7]) < tol and abs(dX[8]) < tol:
         small_change = True
     else:
         small_change = False
@@ -114,5 +124,9 @@ for n in range(100):
     else:
         continue
 
-print("Changes after {:03.0f} iterations:\n".format(n), dX, "\n")
-print("Final Parameters:\n", X)
+print("Changes after {:03.0f} iterations:".format(n))
+print(dX)
+print("Final Parameters:")
+print(X)
+print("Angles:")
+print(calcAngles(X))
