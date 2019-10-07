@@ -76,4 +76,8 @@ state energies.
     about to 30? 
     
  7. Evaluate the precision of your solutions.
+ 
+ 8. Try another root finding algorithm to find a solution to the problem.
+    Which method did you choose and how does it work? Why might it be 
+    better or worse compared to a bisection or Newton-Raphson method?
     
