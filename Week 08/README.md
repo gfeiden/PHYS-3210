@@ -109,6 +109,8 @@ _m = M / (N &mu;)_ and _t = T / T<sub>C</sub>_, where
 _T<sub>C</sub> = (N&mu;<sup>2</sup>&lambda;) / k<sub>B</sub>_ is a characteristic
 temperature called the Curie Temperature. 
 
+![equation](https://latex.codecogs.com/gif.latex?m%28t%29%20%3D%20%5Ctanh%5Cleft%28%5Cfrac%7Bm%28t%29%7D%7Bt%7D%20%5Cright%20%29)
+
 Your task is to find the reduced magnetism, _m(T)_, as a function of 
 temperature by solving the transcendental equation above using methods 
 discussed on Monday. Remember to always plot your function _first_.
