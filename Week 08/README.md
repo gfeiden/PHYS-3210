@@ -122,11 +122,16 @@ discussed on Monday. Remember to always plot your function _first_.
   
   2. Find the root of the equation to six significant figures for _t = 0.5_
      using the bisection and Newton-Raphson algorithms.
+     
   3. Compare the time is takes to find the solutions.
+  
   4. Construct a plot of the reduced magnetization _m(t)_ as a function 
      of the reduced temperature _t_. 
+     
   5. For _t &ge; 1_, you should find that there are no solutions to the 
-     equation. Explain why this is the case and why it makes physical sense.
+     equation aside from the trivial solution. Explain why this is the 
+     case and why it makes physical sense.
+     
   6. How does this problem relate to the evidence we have for seafloor 
      spreading due to tectonic plate motion and the evidence we have for 
      geomagnetic reversals?
