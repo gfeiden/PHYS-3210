@@ -81,3 +81,55 @@ state energies.
     Which method did you choose and how does it work? Why might it be 
     better or worse compared to a bisection or Newton-Raphson method?
     
+### Exercise 16: Temperature Dependence of Magnetization
+Imagine a collection of _N_ spin&ndash;&frac12; particles each with a 
+magnetic moment &mu;. The collection of particles has some temperature, 
+_T_, and it's sitting in an external magnetic field, _B_. A good example would 
+be a piece of iron in a rock on Earth (Earth has a magnetic field). 
+
+When the collection of particles come to equilibrium there are _N<sub>L</sub>_
+particles in the lower energy state (spins aligned with the magnetic field)
+and _N<sub>U</sub>_ particles in the upper energy state (spins opposed to
+the magnetic field). For a dipole with magnetic moment &mu;, its energy
+in a magnetic field is given by _E = &minus;**&mu; &sdot; B**. Thus, spin-up 
+particles have a lower energy than spin-down particles. 
+
+Assuming that the molecular magnetic field _B<sub>&mu;</sub> = &lambda; M_ 
+is much stronger than the external magnetic field and that a Boltzmann
+distribution will yield the number of particles in each state, we can
+describe the _magnetization_ _M(T)_ by the equation 
+_M(T) = &mu;(N<sub>L</sub> &minus; N<sub>L</sub>)_. Using a Boltzmann 
+distribution to find the total number of particles in each energy state,
+the equation can be written as
+
+![equation](https://latex.codecogs.com/gif.latex?M%28T%29%20%3D%20N%5Cmu%20%5Ccdot%20%5Ctanh%5Cleft%28%5Cfrac%7B%5Clambda%5Cmu%20M%28T%29%7D%7Bk_B%20T%7D%20%5Cright%20%29)
+
+This can be further simplified by choosing suitable non-dimensional quantities
+_m = M / (N &mu;)_ and _t = T / T<sub>C</sub>_, where 
+_T<sub>C</sub> = (N&mu;<sup>2</sup>&lambda;) / k<sub>B</sub>_ is a characteristic
+temperature called the Curie Temperature. 
+
+Your task is to find the reduced magnetism, _m(T)_, as a function of 
+temperature by solving the transcendental equation above using methods 
+discussed on Monday. Remember to always plot your function _first_.
+
+  1. In this case, the equation is slightly more complicated because we
+     have two free variables, _m_ and _t_. To proceed, find the roots of 
+     the equation for a variety of fixed _t_ values. Choose values above
+     and below _t = 1_.
+  
+  2. Find the root of the equation to six significant figures for _t = 0.5_
+     using the bisection and Newton-Raphson algorithms.
+  3. Compare the time is takes to find the solutions.
+  4. Construct a plot of the reduced magnetization _m(t)_ as a function 
+     of the reduced temperature _t_. 
+  5. For _t &ge; 1_, you should find that there are no solutions to the 
+     equation. Explain why this is the case and why it makes physical sense.
+  6. How does this problem relate to the evidence we have for seafloor 
+     spreading due to tectonic plate motion and the evidence we have for 
+     geomagnetic reversals?
+     
+
+
+
+    
