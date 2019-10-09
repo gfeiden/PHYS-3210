@@ -91,14 +91,14 @@ When the collection of particles come to equilibrium there are _N<sub>L</sub>_
 particles in the lower energy state (spins aligned with the magnetic field)
 and _N<sub>U</sub>_ particles in the upper energy state (spins opposed to
 the magnetic field). For a dipole with magnetic moment &mu;, its energy
-in a magnetic field is given by _E = &minus;**&mu; &sdot; B**. Thus, spin-up 
+in a magnetic field is given by _E = &minus;**&mu; &sdot; B**_. Thus, spin-up 
 particles have a lower energy than spin-down particles. 
 
 Assuming that the molecular magnetic field _B<sub>&mu;</sub> = &lambda; M_ 
 is much stronger than the external magnetic field and that a Boltzmann
 distribution will yield the number of particles in each state, we can
 describe the _magnetization_ _M(T)_ by the equation 
-_M(T) = &mu;(N<sub>L</sub> &minus; N<sub>L</sub>)_. Using a Boltzmann 
+_M(T) = &mu;(N<sub>L</sub> &minus; N<sub>U</sub>)_. Using a Boltzmann 
 distribution to find the total number of particles in each energy state,
 the equation can be written as
 
