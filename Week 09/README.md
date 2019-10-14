@@ -1,9 +1,9 @@
-## Week 08: Data Fitting &amp; Interpolation
+## Week 09: Data Fitting &amp; Interpolation
 
 ### Readings
 From _Computational Physics_:
- 1. Sections 7.1 &ndash; 7.4 (by Wednesday)
- 2. Section 7.5 (by Friday) 
+ 1. Sections 7.5 &amp; 7.7 (by Wednesday)
+ 2. Section 8.1 &ndash; 8.3 (by Friday)
 
 ### Exercise 17: Fitting an Energy Spectrum w/ Lagrange Interpolation
 _Problem 3 in Chapter 7 of Computational Physics_
@@ -22,7 +22,7 @@ Your tasks are to:
 
  1. Write a subroutine to perform an _n_-point Lagrange interpolation using 
     the above equation (7.23 in your book). Treat _n_ as an arbitrary
-    input parameter.
+    input parameter. (actually, use routines in `scipy.interpolate`) 
  2. Use your Lagrange interpolation procedure to fit the entire experimental
     spectrum given in Table 7.1 with one polynomial (i.e., fit all nine 
     data points with an eighth-order polynominal). Use your polyinomial 
