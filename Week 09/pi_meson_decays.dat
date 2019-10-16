@@ -1,0 +1,19 @@
+# Number of decays of a Pi Meson 
+# as a function of time, taken from
+# data presented in Figure 7.6 in
+# "Computational Physics"
+#
+# t   N_decay
+#====================================
+  5     32
+ 15     18
+ 25     21
+ 35      8
+ 45      9
+ 55      7
+ 65      6
+ 75      3
+ 85      4
+ 95      0
+105      5
+115      1
