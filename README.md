@@ -21,6 +21,9 @@ that can be developed by taking one of UNG's computer science courses (CSCI 1301
 or 1371). We will take time to learn those basic skills as they are applied in
 Python, since our intro courses only teach MatLAB and Java.
 
+## Course Schedule
+Take a look at the [Schedule](https://github.com/gfeiden/PHYS-3210/blob/master/Schedule.md) page to see our tentative schedule. 
+
 ## Textbooks
 There are two required textbooks for this course. Both will serve you well in the
 course, but are excellent references even after you leave this course.
@@ -43,8 +46,8 @@ Homework, Independent Project, 3 Midterms, and a cumulative Final Exam.
 
  | Category  | Weight |
  |-----------|  :---: |
- | Exercises |  15%   |
- | Labs      |  25%   |
+ | Exercises |  25%   |
+ | Labs      |  15%   |
  | Project   |  15%   |
  | Midterms  |  30%   |
  | Final     |  15%   |
