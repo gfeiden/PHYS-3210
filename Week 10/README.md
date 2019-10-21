@@ -6,6 +6,7 @@ From _Computational Physics_:
 
 ### Exercise 19: Anharmonic Oscillation with Euler's method
 _Based on Problem in Section 8.8 in Computational Physics_
+
 Use Euler's method to solve for an anharmonic oscillator's motion that 
 is subject to the spring potential
 
