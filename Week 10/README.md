@@ -2,7 +2,8 @@
 
 ### Readings
 From _Computational Physics_:
- 2. Section 8.4
+ 1. Section 8.4 &amp; 8.5 (by Wednesday)
+ 2. Section 8.6 &amp; 8.7 (by Friday)
 
 ### Exercise 19: Anharmonic Oscillation with Euler's method
 _Based on Problem in Section 8.8 in Computational Physics_
