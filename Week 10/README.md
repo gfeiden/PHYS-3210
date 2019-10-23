@@ -29,7 +29,11 @@ using different values for the exponent _p_ between 2 and 12.
  4. Verify that nonharmonic oscillators are _isochronous_, that is, vibrations
     with different amplitudes have different periods. 
 
-
+### Exercise 20: Anharmonic Oscillation with RK2
+Use a second-order Runge-Kutta method (RK2) to solve for the motion of 
+the same anharmonic oscillator in Exercise 19. Compare your results with
+those from Euler's method and explore different step sizes using each method.
+What do you observe?
 
 
     
