@@ -11,4 +11,6 @@
  |  07   | Matrix Computing | Masses on String | Masses on String |
  |  08   | Root Finding     | Root Finding     | Catch-up Day     | 
  |  09   | Interpolation    | Curve Fitting    | Curve Fitting    |
- |  10   | ODEs             | ODEs             | ODEs             |
+ |  10   | ODEs w/ Euler    | ODEs w/ Euler    | ODEs w/ RK2      |
+ |  11   | ODEs w/ RK4      | ODEs             | ODEs             |
+ |  12   |
