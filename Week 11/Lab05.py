@@ -38,22 +38,25 @@ def rk2Solve(m, x0, v0, k=1.0, p=2, dt=1.0e-2):
     for i in range(int(10/dt)):
         t += dt
         
-        F_friction = np.sum(frictionForce(m, v0, mu_s = 0.1, mu_k = 0.2))
+        F_friction = frictionForce(m, v0, mu_s = 0.1, mu_k = 0.2)
         F_spring   = springForce(k, x0, p)
         
-        if abs(F_spring) > abs(F_friction):
-            v12 = v0 + dt*F_spring/2 + dt*F_friction/2
+        if abs(v0) < 1.0e-16:
+            # check whether spring force will overcome static friction
+            stuck = (abs(F_spring) <= abs(F_friction[0]))
+            v12 = v0 + dt*F_spring/2/m + dt*F_friction[0]/2/m
         else:
-            v12 = 0.0
-        x12 = x0 + dt*v0/2
+            stuck = False
+            v12 = v0 + dt*F_spring/2/m + dt*F_friction[1]/2/m
         
-        F_friction = np.sum(frictionForce(m, v12, mu_s = 0.1, mu_k = 0.2))
+        x12 = x0 + dt*v0/2
+        if stuck:
+            break
+        
+        F_friction = frictionForce(m, v12, mu_s = 0.1, mu_k = 0.2)
         F_spring   = springForce(k, x12, p)
         
-        if abs(F_spring) > abs(F_friction):
-            v0 += dt*F_spring + dt*F_friction
-        else:
-            v0 = 0.0
+        v0 += dt*F_spring + dt*F_friction[1]/m
         x0 += dt*v12
     
         v_list.append(v0)
@@ -97,16 +100,17 @@ def eulerSolve(m, x0, v0, k=1.0, p=2, dt=1.0e-2):
 # initial conditions of mass
 m  = 5.0  # object's mass [kg]
 v0 = 0.0  # object's initial x velocity [m/s]
-x0 = 1.0  # object's initial position [m]
+x0 = 2.0  # object's initial position [m]
 
 # spring constant
-k = 10.0   # 
+k = 20.0   # 
 
-dt = 1.0e-2  # time step [s]
+dt = 1.0e-3  # time step [s]
 
 p02_rk = rk2Solve(m, x0, v0, k=k, p=2,  dt=dt)
-p06_rk = rk2Solve(m, x0, v0, k=k, p=6,  dt=dt)
-p10_rk = rk2Solve(m, x0, v0, k=k, p=10, dt=dt)
+p03_rk = rk2Solve(m, x0, v0, k=5.0, p=2,  dt=dt)
+#p06_rk = rk2Solve(m, x0, v0, k=k, p=6,  dt=dt)
+#p10_rk = rk2Solve(m, x0, v0, k=k, p=10, dt=dt)
 
 p02_em = eulerSolve(m, x0, v0, k=k, p=2,  dt=dt)
 p06_em = eulerSolve(m, x0, v0, k=k, p=6,  dt=dt)
@@ -116,16 +120,18 @@ p06_em = eulerSolve(m, x0, v0, k=k, p=6,  dt=dt)
 fig, ax = plt.subplots(1, 2)
 # Position vs Time, RK2
 ax[0].plot(p02_rk[:,1], p02_rk[:,0], '-', lw=2)
-ax[0].plot(p06_rk[:,1], p06_rk[:,0], '-', lw=2)
-ax[0].plot(p10_rk[:,1], p10_rk[:,0], '-', lw=2)
+ax[0].plot(p03_rk[:,1], p03_rk[:,0], '-', lw=2)
+#ax[0].plot(p06_rk[:,1], p06_rk[:,0], '-', lw=2)
+#ax[0].plot(p10_rk[:,1], p10_rk[:,0], '-', lw=2)
 ax[0].set_title("RK2 :: Position vs Time")
 ax[0].set_xlabel("Position [m]")
 ax[0].set_ylabel("Time [s]") 
 
 # Velocity vs Time, RK2
 ax[1].plot(p02_rk[:,2], p02_rk[:,0], '-', lw=2)
-ax[1].plot(p06_rk[:,2], p06_rk[:,0], '-', lw=2)
-ax[1].plot(p10_rk[:,2], p10_rk[:,0], '-', lw=2)
+ax[1].plot(p03_rk[:,2], p03_rk[:,0], '-', lw=2)
+#ax[1].plot(p06_rk[:,2], p06_rk[:,0], '-', lw=2)
+#ax[1].plot(p10_rk[:,2], p10_rk[:,0], '-', lw=2)
 ax[1].set_title("RK2 :: Velocity vs Time")
 ax[1].set_xlabel("Velocity [m/s]")
 ax[1].set_ylabel("Time [s]") 
