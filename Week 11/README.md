@@ -13,7 +13,7 @@ explore how external forces affect the oscillations of an anharmonic
 oscillator. 
 
  1. Explore the impact of friction by completing parts 1 &ndash; 3 in 
-    Problem 8.9.1 (pg 189).
+    Problem 8.9.1 (pg 189) with static and kinetic friction. 
  
  2. Next, explore how the timing of a driving forces affects the amplitude
     of your oscillations by completing parts 1 &ndash; 9 in Problem 8.10.
