@@ -35,10 +35,12 @@ def solve_wave_function(dx, x_left, x_right, a, E):
     for n in range(int((x_right - x_left)/dx)):
         x = xs[-1]
         if abs(x) > a:
-            psi_new, dpsi_new = wave_function_outside(x+dx, kappa)
+            dpsi_new = dpsi[-1] + kappa_2*psi[-1]*dx
+            psi_new  = psi[-1]  + dpsi[-1]*dx
+            #psi_new, dpsi_new = wave_function_outside(x+dx, kappa)
         else:
             dpsi_new = dpsi[-1] + (q*potential(x, a) + kappa_2)*psi[-1]*dx
-            psi_new  = psi[-1] + dpsi[-1]*dx
+            psi_new  = psi[-1]  + dpsi[-1]*dx
         
         x += dx
         
@@ -52,9 +54,9 @@ def solve_wave_function(dx, x_left, x_right, a, E):
     return xs, psi, dpsi
 
 E = -20.0    
-a =  1.5
-x_match = a
-dx = 1.0e-2
+a =  2.0
+x_match = a+0.2
+dx = 1.0e-3
 
 E  = [-10.0, -20.0]
 delta = E[1] - E[0]
@@ -84,24 +86,24 @@ for n in range(20):
     
     print(dE_test)
     # check whether wavefunction is continuous at xmatch
-    if (abs(dE_test) < 1.0e-8):
+    if (abs(dE_test) < 1.0e-5):
         # solution found, exit loop
         E_final = E_test
         print("Iteration {:02.0f}: Matched! E = {:+12.7f} MeV".format(n, E_final))
         break
     else:
         # select a new E and retry
-        delta = -np.sign(dE_test)
+        delta = np.sign(dE_test)*5.0
         E = [E_test, E_test + delta]
         print("Iteration {:02.0f}: No Match. Propose: E = {:+12.7f} MeV, deltaE = {:+12.7f} MeV".format(n, E_test, delta))
 
-
+#E_final = -15.07
 xs_left,  psi_left,  dpsi_left  = solve_wave_function( dx, -100., x_match, a, E_final)
 xs_right, psi_right, dpsi_right = solve_wave_function(-dx,  100., x_match, a, E_final)
 
 plt.plot(xs_left,  psi_left,  'o', ms=1.0)
 plt.plot(xs_right, psi_right, 'o', ms=1.0)
-#plt.xlim(-a - 1.0, a + 1.0)
+plt.xlim(-a - 1.0, a + 1.0)
 plt.xlabel("$x$ [fm]")
 plt.ylabel("$\psi(x)$")
 plt.show()
