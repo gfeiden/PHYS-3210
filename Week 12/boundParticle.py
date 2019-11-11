@@ -58,7 +58,7 @@ def solve_wave_function(dx, x_left, x_right, a, E):
 
 # set parameters of run
 a =  2.0       # potential size -a <= x <= +a
-x_match = 1.9  # position to match the left/right integrator
+x_match = 1.0  # position to match the left/right integrator
 dx = 1.0e-3    # absolute value of the position step size
 
 
