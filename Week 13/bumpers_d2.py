@@ -16,8 +16,8 @@ def bumperForce(x):
           x -- list where x[0] == X, x[1] == Y
     
     """
-    Fx = -2.0*x[0]*x[1]**2*(1.0 - x[0]**2)*np.exp(-(x[0]**2 + x[1]**2))
-    Fy = -2.0*x[1]*x[0]**2*(1.0 - x[1]**2)*np.exp(-(x[0]**2 + x[1]**2))
+    Fx = 2.0*x[0]*x[1]**2*(1.0 - x[0]**2)*np.exp(-(x[0]**2 + x[1]**2))
+    Fy = 2.0*x[1]*x[0]**2*(1.0 - x[1]**2)*np.exp(-(x[0]**2 + x[1]**2))
     
     return [Fx, Fy]
 
@@ -42,8 +42,29 @@ def solveBumpers(x0, v0, m=1.0, dt=1.0e-3):
     
     return x, v
 
-x1, v1 = solveBumpers(x0=[0.0, 0.1], v0=[0.1, 0.10])
-x2, v2 = solveBumpers(x0=[0.0, 0.1], v0=[0.1, 0.11])
+x1, v1 = solveBumpers(x0=[0.9, 0.4], v0=[0.0, 0.0], m=0.5)
+x2, v2 = solveBumpers(x0=[-0.9, 0.4], v0=[0.0, 0.0], m=0.5)
 
-plt.plot(x1[:,0], x1[:,1], lw=2)
-plt.plot(x2[:,0], x2[:,1], lw=2)
+# plot potential contours
+x_v = np.arange(-10.0, 10.01, 0.01)
+y_v = np.arange(-10.0, 10.01, 0.01)
+X_v, Y_v = np.meshgrid(x_v, y_v)
+Z_v = X_v**2 * Y_v**2 * np.exp(-(X_v**2 + Y_v**2))
+
+# PLOT TRAJECTORIES W/ POTENTIAL CONTOURS
+fig, ax = plt.subplots(1, 1, figsize=(10, 8))
+
+cb = ax.contourf(X_v, Y_v, Z_v, 10, cmap="Oranges")
+ax.plot(x1[:,0], x1[:,1], lw=2)
+ax.plot(x2[:,0], x2[:,1], lw=2)
+
+ax.set_xlim(-3.0, 3.0)
+ax.set_xlabel("X Position")
+ax.set_ylim(-3.0, 3.0)
+ax.set_ylabel("Y Position")
+
+cbar = fig.colorbar(cb)
+cbar.ax.set_ylabel("Scattering Potential")
+
+fig.tight_layout()
+plt.show()
